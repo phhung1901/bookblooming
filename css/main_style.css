@@ -39,7 +39,7 @@
     display: block;
 }
 .content{
-    background-color: #7272720f;
+    background-color: #3e9dab12;
 }
 .content .container h1{
     font-size: 30px;
@@ -81,7 +81,7 @@
     padding: 2rem 0;
 }
 .topic.bg_topic_1{
-    background-color: #bababa;
+    background-color: #3e9dab7d;
 }
 .topic.bg_topic_2{
     background-color: #F0F3F5;
@@ -122,7 +122,7 @@
 }
 footer{
     padding-top: 2rem;
-    background-color: #7272727d;
+    background-color: #3e9dab7d;
 }
 footer .foo_logo img{
     width: 8rem;
