@@ -81,7 +81,8 @@
     padding: 2rem 0;
 }
 .topic.bg_topic_1{
-    background-color: #bababa;
+    background-color: #000000;
+    color: white;
 }
 .topic.bg_topic_2{
     background-color: #F0F3F5;
