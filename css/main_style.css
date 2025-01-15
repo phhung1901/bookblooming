@@ -1,3 +1,8 @@
+:root {
+    --main: #495e79;
+    --bg: #bababa;
+    --footer-bg: #7272727d;
+}
 *{
     margin: 0;
     padding: 0;
@@ -39,7 +44,7 @@
     display: block;
 }
 .content{
-    background-color: #fb68940d;
+    background-color: #7272720f;
 }
 .content .container h1{
     font-size: 30px;
@@ -47,7 +52,7 @@
 }
 .banner .banner_content h2{
     margin: 0 auto;
-    width: 50%;
+    width: 70%;
 }
 .banner .banner_content p{
     width: 70%;
@@ -81,7 +86,7 @@
     padding: 2rem 0;
 }
 .topic.bg_topic_1{
-    background-color: #ff84011c;
+    background-color: var(--bg);
 }
 .topic.bg_topic_2{
     background-color: #F0F3F5;
@@ -122,7 +127,7 @@
 }
 footer{
     padding-top: 2rem;
-    background-color: #ff84011c;
+    background-color: var(--footer-bg);
 }
 footer .foo_logo img{
     width: 8rem;
@@ -166,5 +171,9 @@ footer .copyright{
         width: 90%;
         margin: 0 auto;
     }
+}
+
+.bg-blue-600{
+    background-color: var(--main)!important;
 }
 
