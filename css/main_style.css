@@ -1,7 +1,7 @@
 :root {
-    --main: #495e79;
-    --bg: #bababa;
-    --footer-bg: #7272727d;
+    --main: #d6bcb230;
+    --bg: #d6bcb2;
+    --footer-bg: #d6bcb2;
 }
 *{
     margin: 0;
@@ -44,7 +44,7 @@
     display: block;
 }
 .content{
-    background-color: #7272720f;
+    background-color: var(--main);
 }
 .content .container h1{
     font-size: 30px;
